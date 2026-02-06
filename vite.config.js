@@ -7,5 +7,5 @@ export default defineConfig({
   resolve: {
     dedupe: ['react', 'react-dom'],
   },
-  base: "/melodia/",
+  base: "/sight-reading-webapp/",
 })
