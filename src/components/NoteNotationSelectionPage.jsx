@@ -22,10 +22,10 @@ export default function NoteNotationSelectionPage() {
 
   return (
     <>
-      <h1>Choose note notation</h1>
+      <h1>Выберите обозначение нот</h1>
       <span id='menu-btns' className='center'>
         <Link to={getPath() + '?mode=warm-up&note-notation=c-d-e'} className='btn btn-cyan btn-menu'>C-D-E</Link>
-        <Link to={getPath() + '?mode=warm-up&note-notation=do-re-mi'} className='btn btn-orange btn-menu'>do-re-mi</Link>
+        <Link to={getPath() + '?mode=warm-up&note-notation=do-re-mi'} className='btn btn-orange btn-menu'>до-ре-ми</Link>
       </span>
     </>
   );

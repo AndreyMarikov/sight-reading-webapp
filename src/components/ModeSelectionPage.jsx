@@ -26,13 +26,13 @@ export default function ModeSelectionPage() {
 
   return (
     <>
-      <h1>Choose mode</h1>
+      <h1>Выберите режим</h1>
       <span className="center" id="menu-btns">
-        <Link to={'/note-notation-selection?octave=' + octave} className="btn btn-orange btn-menu">Warm-up</Link>
+        <Link to={'/note-notation-selection?octave=' + octave} className="btn btn-orange btn-menu">Разминка</Link>
         <Link to={{
           pathname: '/mode-selection/note-reading',
           search: octave && '?octave=' + octave,
-        }} className="btn btn-red btn-menu">Note reading</Link>
+        }} className="btn btn-red btn-menu">Чтение нот</Link>
       </span>
     </>
   );

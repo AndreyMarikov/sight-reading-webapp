@@ -22,27 +22,27 @@ export default function BlackKeysPage() {
 
   return (
     <>
-      <h1>black keys</h1>
+      <h1>чёрные клавиши</h1>
       <span className="center" id="menu-btns">
         <Link to={{
           pathname: getPath(),
           search: '?mode=with-sharps',
-        }} className="btn btn-cyan btn-menu">With sharps ♯</Link>
+        }} className="btn btn-cyan btn-menu">С диезами ♯</Link>
         <Link to={{
           pathname: getPath(),
           search: '?mode=with-flats',
-        }} className="btn btn-purple btn-menu">With flats ♭</Link>
+        }} className="btn btn-purple btn-menu">С бемолями ♭</Link>
         <Link to={{
           pathname: getPath(),
           search: '?mode=with-sharps-and-flats',
-        }} className="btn btn-red btn-menu">With sharps ♯<br></br>and flats ♭</Link>
+        }} className="btn btn-red btn-menu">С диезами ♯<br></br>и бемолями ♭</Link>
         <Link to={{
           pathname: getPath(),
           search: '?mode=with-double-sharps-and-double-flats',
         }} className="btn btn-green btn-menu">
-          With double sharps 𝄪
+          С дубль-диезами 𝄪
           <br></br>
-          and double flats 𝄫
+          и дубль-бемолями 𝄫
         </Link>
       </span>
     </>
