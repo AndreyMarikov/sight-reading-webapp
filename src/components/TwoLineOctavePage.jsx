@@ -333,7 +333,7 @@ export default function TwoLineOctavePage() {
     currentNoteRef = noteRef;
   }
 
-  const startingMinutes = 0.2;
+  const startingMinutes = 2;
   let time = startingMinutes * 60;
 
   let [count, setCount] = useState(0);

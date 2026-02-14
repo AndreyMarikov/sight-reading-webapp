@@ -97,7 +97,7 @@ export default function GreatOctavePage() {
     ref.current.classList.remove('hidden');
   }
 
-  const startingMinutes = 2 * 0.1;
+  const startingMinutes = 2;
   let time = startingMinutes * 60;
 
   let [count, setCount] = useState(0);
